@@ -1,4 +1,4 @@
-version:5023
+version:5131
 ao:true
 biomeBlendRadius:2
 chunkSectionFadeInTime:0.75
@@ -14,6 +14,7 @@ darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
 preferredGraphicsBackend:"default"
+preferDXGIPresent:false
 graphicsPreset:"custom"
 prioritizeChunkUpdates:0
 fullscreen:false
@@ -25,6 +26,7 @@ debugGuiScale:0
 maxAnisotropyBit:2
 textureFiltering:0
 maxFps:120
+improvedFog:true
 improvedTransparency:false
 inactivityFpsLimit:"afk"
 mipmapLevels:4
@@ -109,7 +111,7 @@ panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
 menuBackgroundBlurriness:5
-startedCleanly:false
+startedCleanly:true
 musicToast:"never"
 musicFrequency:"DEFAULT"
 key_key.attack:key.mouse.left
@@ -128,7 +130,7 @@ key_key.playerlist:key.keyboard.tab
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
 key_key.friends:key.keyboard.o
-key_key.socialInteractions:key.keyboard.p
+key_key.otherPlayers:key.keyboard.p
 key_key.toggleGui:key.keyboard.f1
 key_key.toggleSpectatorShaderEffects:key.keyboard.f4
 key_key.screenshot:key.keyboard.f2
@@ -138,6 +140,7 @@ key_key.fullscreen:key.keyboard.f11
 key_key.spectatorOutlines:key.keyboard.unknown
 key_key.spectatorHotbar:key.mouse.middle
 key_key.swapOffhand:key.keyboard.f
+key_key.repeatRecipeOrTrade:key.keyboard.r
 key_key.saveToolbarActivator:key.keyboard.c
 key_key.loadToolbarActivator:key.keyboard.x
 key_key.advancements:key.keyboard.l
